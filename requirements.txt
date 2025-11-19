@@ -1,0 +1,33 @@
+# Core simulation
+pybullet==3.2.5
+numpy==1.24.3
+scipy==1.11.1
+
+# Computer vision
+opencv-python==4.8.0.74
+opencv-contrib-python==4.8.0.74
+Pillow==10.0.0
+
+# Robotics libraries
+roboticstoolbox-python==1.1.0
+spatialmath-python==1.1.5
+ikpy==3.3.3
+
+# Optimization
+cvxpy==1.3.2
+quadprog==0.1.11
+
+# Configuration
+PyYAML==6.0.1
+
+# Visualization & Logging
+matplotlib==3.7.2
+seaborn==0.12.2
+tqdm==4.65.0
+
+# Testing
+pytest==7.4.0
+
+# Video recording
+imageio==2.31.1
+imageio-ffmpeg==0.4.8

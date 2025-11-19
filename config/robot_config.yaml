@@ -1,0 +1,6 @@
+kuka_iiwa:
+  kp: 0.6
+  kd: 0.12
+panda:
+  kp: 0.6
+  kd: 0.12

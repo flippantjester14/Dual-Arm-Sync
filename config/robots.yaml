@@ -1,0 +1,21 @@
+robot_a:
+  type: "xarm6"
+  base_xyz: [-0.8, 0.0, 0.625]
+  base_rpy: [0.0, 0.0, 0.0]
+  gripper_link_name: ""   # ignored for xarm6 (code uses last link)
+
+robot_b:
+  type: "panda"
+  base_xyz: [0.8, 0.0, 0.625]
+  base_rpy: [0.0, 0.0, 3.1415926535]
+  camera:
+    width: 640
+    height: 480
+    fov_deg: 70.0
+    near: 0.05
+    far: 2.0
+    mount_link_name: "panda_hand"   # wrist camera
+  nullspace:
+    q_lower: [-2.9, -1.76, -2.9, -3.07, -2.9, -0.02, -2.9]
+    q_upper: [ 2.9,  1.76,  2.9,  3.07,  2.9,  3.75,  2.9]
+    q_ref:   [ 0.0, -0.6,  0.0, -1.8,  0.0,  1.2,  0.8]
